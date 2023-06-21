@@ -1,0 +1,201 @@
+/* .carrossel {
+    border-bottom: solid 10px var(--verde);
+} */
+
+/* .main {
+    
+} */
+
+
+/* Section Categorias */
+
+.container_categorias {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+    "titulo titulo";
+    /* margin: 0px 26px; */
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    border: solid 10px var(--verde);
+    border-bottom: none;
+}
+
+.categorias_cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Titulos do site */
+
+.titulo {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    margin: 24px 0 8px;
+}
+
+.categoria {
+    grid-area: titulo;
+    justify-content: space-between;
+}
+
+.descricao_categorias {
+    background-color: var(--preto);
+    color: var(--branco);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+    padding: 8px 32.5px;
+}
+
+
+/* Section Produtos que estão bombando! */
+
+.bombando {
+    margin: 54px 0px 0px;
+    text-align: center;
+}
+
+.produtos_bombando {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border: solid 10px var(--cinza);
+    border-bottom: none;
+    border-top: none;
+    padding-bottom: 48px;
+}
+
+.produtos_cards {
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px var(--cinza);
+}
+
+.descricao_produtos {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    padding: 13px 13px;
+}
+
+.bomb_text{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 0px 13px;
+}
+
+.bomb_valor {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    padding: 0px 16px 10px;
+}
+
+/* Conheça todas as nossas facilidades */
+
+.facilidades {
+    color: var(--branco);
+    background-color: var(--preto); 
+}
+
+.container_facilidades{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px 20px;
+}
+
+.facilidades h4 {
+    margin: 0;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.card_facilidades {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.facilidades h5 {
+    margin: 0;
+    color: var(--verde);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.facilidades p {
+    margin: 0;
+    color: var(--branco);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+/* Section input Email */
+
+.container_email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 24px 20px;
+    border: solid 1px var(--preto);
+}
+
+.input_text {
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.input_email {
+    width: 60%;
+    height: 38px;
+    padding: 0px 15px;
+}
+
+.container_enviar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}

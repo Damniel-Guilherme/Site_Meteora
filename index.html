@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>METEORA</title>
+    <link rel="icon" href="/assets/imgs/icons/Favicon-48x.png" type="image/png">
+
+
+    <!-- FONTES -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="./assets/css/reset.css"> -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <script src="/assets/js/js.js" defer></script>
+</head>
+<body>
+<header>
+    <div class="top">
+      <h1><img class="logo" src="./assets/imgs/Mobile/Logo/logomobile.png" alt="logo meteora"></h1>
+        
+      <div class="container_header">
+        <div class="search-box">
+          <input type="text" class="search-txt" placeholder="Digite o Produto">
+          <a class="search-btn" href="#">
+            <img src="./assets/imgs/icons/lupa.svg" alt="icon lupa" width="25px">
+          </a>
+        </div>
+        <nav id="nav">
+          <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false"><span id="hamburger"></span></button>
+          <ul id="menu" role="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Nossas lojas</a></li>
+            <li><a href="#">Novidades</a></li>
+            <li><a href="#">Promoções</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div> 
+</header>
+
+<main>
+
+  <!-- Carrosel em Boootstrap -->
+  <section class="carrossel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./assets/imgs/mobile/carrossel/Banner carousel 1 _ 375.png" alt="Primeiro Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./assets/imgs/mobile/carrossel/Banner carousel 2 _ 375.png" alt="Segundo Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./assets/imgs/mobile/carrossel/Banner carousel 3 _ 375.png" alt="Terceiro Slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+  </section>
+
+    <!-- Section Categorias com Display Grid -->
+  <section class="container_categorias">
+    <h3 class="titulo categoria">Busque por categoria:</h3>
+    <div class="categorias_cards card1">
+      <picture>
+        <source srcset="./assets/imgs/desktop/categorias/camisetas.png" media="(min-width: 1440px)">
+        <source srcset="./assets/imgs/tablet/categorias/camisetas.png" media="(min-width: 768px)">
+        <img src="./assets/imgs/mobile/categorias/camisetas.png" alt="categoria camisetas">
+        <figcaption class="descricao_categorias">Camiseta</figcaption>
+      </picture>
+    </div>
+    <div class="categorias_cards card2">
+      <picture>
+        <source srcset="./assets/imgs/desktop/categorias/bolsas.png" media="(min-width: 1440px)">
+        <source srcset="./assets/imgs/tablet/categorias/bolsas.png" media="(min-width: 768px)">
+        <img src="./assets/imgs/mobile/categorias/bolsas.png" alt="categoria bolsas">
+        <figcaption class="descricao_categorias">Bolsas</figcaption>
+      </picture>
+    </div>
+    <div class="categorias_cards card3">
+      <picture>
+        <source srcset="./assets/imgs/desktop/categorias/calçados.png" media="(min-width: 1440px)">
+        <source srcset="./assets/imgs/tablet/categorias/calçados.png" media="(min-width: 768px)">
+        <img src="./assets/imgs/mobile/categorias/calçados.png" alt="categoria calçados">
+        <figcaption class="descricao_categorias">Calçados</figcaption>
+      </picture>
+    </div>
+    <div class="categorias_cards card4">
+      <picture>
+        <source srcset="./assets/imgs/desktop/categorias/calças.png" media="(min-width: 1440px)">
+        <source srcset="./assets/imgs/tablet/categorias/calças.png" media="(min-width: 768px)">
+        <img src="./assets/imgs/mobile/categorias/calças.png" alt="categoria calças">
+        <figcaption class="descricao_categorias">Calças</figcaption>
+      </picture>
+    </div>
+    <div class="categorias_cards card5">
+      <picture>
+        <source srcset="./assets/imgs/desktop/categorias/casacos.png" media="(min-width: 1440px)">
+        <source srcset="./assets/imgs/tablet/categorias/casacos.png" media="(min-width: 768px)">
+        <img src="./assets/imgs/mobile/categorias/casacos.png" alt="categoria casacos">
+        <figcaption class="descricao_categorias">Casacos</figcaption>
+      </picture>
+    </div>
+    <div class="categorias_cards card6">
+      <picture>
+        <source srcset="./assets/imgs/desktop/categorias/oculos.png" media="(min-width: 1440px)">
+        <source srcset="./assets/imgs/tablet/categorias/oculos.png" media="(min-width: 768px)">
+        <img src="./assets/imgs/mobile/categorias/oculos.png" alt="categoria oculos">
+        <figcaption class="descricao_categorias">Óculos</figcaption>
+      </picture>
+    </div>
+  </section>
+
+  <section class="produtos_bombando">
+    <h3 class="titulo bombando">Produtos que estão bombando!</h3>
+    <div class="produtos_cards">
+      <picture>
+        <source srcset="./assets/imgs/desktop/imagenscards/camiseta.png" media="(min-width: 1440px)">
+        <source srcset="./assets/imgs/tablet/imagenscards/camiseta.png" media="(min-width: 768px)">
+        <img src="./assets/imgs/mobile/imagenscards/camiseta.png" alt="banner camiseta">
+        <figcaption class="descricao_produtos">Camiseta</figcaption>
+      </picture>
+      <p class="bomb_text">Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.</p>
+      <h4 class="bomb_valor">R$ 70,00</h4>
+      <a href="#" class="vermais">Ver mais</a>
+    </div>
+    <div class="produtos_cards">
+      <picture>
+        <source srcset="./assets/imgs/desktop/imagenscards/calça.png" media="(min-width: 1440px)">
+        <source srcset="./assets/imgs/tablet/imagenscards/calça.png" media="(min-width: 768px)">
+        <img src="./assets/imgs/mobile/imagenscards/calça.png" alt="banner calça">
+        <figcaption class="descricao_produtos">Calça Alfaiataria</figcaption>
+      </picture>
+      <p class="bomb_text">Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!</p>
+      <h4 class="bomb_valor">R$ 180,00</h4>
+      <a href="#" class="vermais">Ver mais</a>
+    </div>
+    <div class="produtos_cards">
+      <picture>
+        <source srcset="./assets/imgs/desktop/imagenscards/tenis.png" media="(min-width: 1440px)">
+        <source srcset="./assets/imgs/tablet/imagenscards/tenis.png" media="(min-width: 768px)">
+        <img src="./assets/imgs/mobile/imagenscards/tenis.png" alt="banner tenis.png">
+        <figcaption class="descricao_produtos">Tênis Chunky</figcaption>
+      </picture>
+      <p class="bomb_text">Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.</p>
+      <h4 class="bomb_valor">R$ 250,00</h4>
+      <a href="#" class="vermais">Ver mais</a>
+    </div>
+    <div class="produtos_cards">
+      <picture>
+        <source srcset="./assets/imgs/desktop/imagenscards/jaqueta.png" media="(min-width: 1440px)">
+        <source srcset="./assets/imgs/tablet/imagenscards/jaqueta.png" media="(min-width: 768px)">
+        <img src="./assets/imgs/mobile/imagenscards/jaqueta.png" alt="banner jaqueta">
+        <figcaption class="descricao_produtos">Jaqueta Jeans</figcaption>
+      </picture>
+      <p class="bomb_text">Modelo unissex oversized com gola de camurça. Atemporal e autêntica!</p>
+      <h4 class="bomb_valor">R$ 150,00</h4>
+      <a href="#" class="vermais">Ver mais</a>
+    </div>
+    <div class="produtos_cards">
+      <picture>
+        <source srcset="./assets/imgs/desktop/imagenscards/oculos.png" media="(min-width: 1440px)">
+        <source srcset="./assets/imgs/tablet/imagenscards/oculos.png" media="(min-width: 768px)">
+        <img src="./assets/imgs/mobile/imagenscards/oculos.png" alt="banner oculos">
+        <figcaption class="descricao_produtos">Óculos Redondo</figcaption>
+      </picture>
+      <p class="bomb_text">Armação metálica em grafite com lentes arredondadas. Sem erro!</p>
+      <h4 class="bomb_valor">R$ 120,00</h4>
+      <a href="#" class="vermais">Ver mais</a>
+    </div>
+    <div class="produtos_cards">
+      <picture>
+        <source srcset="./assets/imgs/desktop/imagenscards/bolsa.png" media="(min-width: 1440px)">
+        <source srcset="./assets/imgs/tablet/imagenscards/bolsa.png" media="(min-width: 768px)">
+        <img src="./assets/imgs/mobile/imagenscards/bolsa.png" alt="banner bolsa">
+        <figcaption class="descricao_produtos">Bolsa coringa</figcaption>
+      </picture>
+      <p class="bomb_text">Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!</p>
+      <h4 class="bomb_valor">R$ 120,00</h4>
+      <a href="#" class="vermais">Ver mais</a>
+    </div>
+  </section>
+
+  <!-- Conheça todas as nossas facilidades -->
+  <section class="facilidades">
+    <div class="container_facilidades">
+      <h4>Conheça todas as nossas facilidades</h4>
+      <div class="card_facilidades">
+        <img src="./assets/imgs/mobile/icones/x-diamond.png" alt="banner diamante">
+        <div class="card_text">
+          <h5>PAGUE PELO PIX</h5>
+          <p>Ganhe 5% OFF em pagamentos via PIX</p>
+        </div>
+      </div>
+      <div class="card_facilidades">
+        <img src="./assets/imgs/mobile/icones/arrow-repeat.png" alt="banner troca grátis">
+        <div>
+          <h5>TROCA GRÁTIS</h5>
+          <p>Fique livre para trocar em até 30 dias.</p>
+        </div>
+      </div>
+      <div class="card_facilidades">
+        <img src="./assets/imgs/mobile/icones/flower1.png" alt="banner sustentabilidade">
+        <div>
+          <h5>SUSTENTABILIDADE</h5>
+          <p>Moda responsável, que respeita o meio<br> ambiente.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="container_email">
+    <p class="input_text">Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</p>
+    <div class="container_enviar">
+      <input class="input_email" type="email" name="email" placeholder="Digite seu email"/>
+      <a href="#" class="enviar">Enviar</a>  
+    </div>
+  </section>
+
+<footer>
+  <div class="footer">
+    <p class="footer_text">2023 © Desenvolvido por Alura | Projeto fictício sem fins comerciais.</p>
+  </div>
+</footer>
+</main>
+
+
+
+
+
+
+
+<!-- Bootstrap -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

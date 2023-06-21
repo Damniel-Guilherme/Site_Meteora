@@ -1,0 +1,13 @@
+:root {
+    --preto: #000;
+    --branco: #fff;
+    --cinza: #ccc;
+    --cinzaescuro: #343A40;
+    --verde: #DAFF01;
+    --roxo: #9353FF;
+
+    /* Paletas Complementares */
+
+    --vermelho: #EE6471;
+    --laranja: #F87F46;
+}

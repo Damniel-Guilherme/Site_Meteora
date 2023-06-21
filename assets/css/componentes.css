@@ -1,0 +1,31 @@
+/* BUTTON */
+
+.vermais {
+    padding: 9px 16px;
+    color: var(--branco);
+    background-color: var(--roxo);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.enviar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 84px;
+    height: 38px;
+    color: var(--branco);
+    background-color: var(--roxo);
+    margin-left: -5px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.457143px;
+    text-align: center;
+}

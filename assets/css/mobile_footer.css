@@ -1,0 +1,16 @@
+.footer {
+
+    text-align: center;
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 17px 64px;
+}
+
+.footer_text {
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+}
