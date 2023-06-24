@@ -1,0 +1,31 @@
+@media screen and (min-width: 1440px) {
+    .container_categorias {
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-areas:
+        "titulo titulo titulo titulo titulo titulo";
+    }
+    .container_bombando {
+        width: 1035px;
+        margin: 0 auto;
+        grid-template-columns: auto auto auto;
+        grid-template-areas:
+        "produtosb produtosb produtosb";
+    }
+    .container_card {
+        flex-direction: row;
+        gap: 40px;
+    }
+        /* Section input Email */
+
+    .container_email {
+        width: 868px;
+    }
+    
+    .input_text {
+        width: 700px;
+    }
+    
+    .input_email {
+        width: 350px;
+    }
+}

@@ -1,0 +1,32 @@
+@media screen and (min-width: 768px) {
+    .imgcarrossel {
+        height: 415px;
+    }
+    .container_categorias {
+        grid-template-columns: auto auto auto;
+        grid-template-areas:
+        "titulo titulo titulo";
+    }
+
+    .container_bombando {
+        width: 690px;
+        margin: 0 auto;
+        grid-template-columns: auto auto;
+        grid-template-areas:
+        "produtosb produtosb";
+    }
+
+    /* Section input Email */
+
+    .container_email {
+        width: 550px;
+    }
+
+    .input_text {
+        width: 500px;
+    }
+
+    .input_email {
+        width: 100%;
+    }
+}

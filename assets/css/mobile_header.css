@@ -1,14 +1,16 @@
-header .top {
+.top {
     height: 58px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: var(--preto);
     border-bottom: 1px solid #fff;
+    padding: 0px 10px 0px 23px;
 }
 
 .logo {
-    padding-left: 22px;
+    display: flex;
+    margin: 0;
 }
 
 .container_header {
@@ -58,10 +60,6 @@ header .top {
 }
 
 /* MENU-HAMBURGUER */
-
-#nav {
-    padding-right: 21px;
-}
 
 #menu {
     display: flex;
@@ -113,6 +111,7 @@ header .top {
     margin-bottom: 8px;
     color: var(--branco);
     white-space: nowrap;
+    padding: 5px
 }
 
 #menu a:active {
@@ -121,6 +120,7 @@ header .top {
 }
 
 #menu a:hover {
+    text-decoration: none;
     background-color: #ffffff2c;
     /* transition: all 0.2s ease; */
 }

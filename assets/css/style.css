@@ -1,54 +1,41 @@
-/* Reset CSS */
-
+/* RESET CSS */
 @import url(/assets/css/reset.css);
 
-
 /* CORES */
-
 @import url(/assets/css/cores.css);
 
 /* Fonts */
-
 @import url(/assets/css/fonts.css);
 
 /* Componentes */
-
 @import url(/assets/css/componentes.css);
 
-
-/* --------------------------------------------------------------------- */
-
 /* MOBILE */
-
 @import url(/assets/css/mobile_header.css);
 @import url(/assets/css/mobile_main.css);
 @import url(/assets/css/mobile_footer.css);
 
-/* --------------------------------------------------------------------- */
-
 /* TABLET */
+@import url(/assets/css/tablet_header.css);
+@import url(/assets/css/tablet_main.css);
+@import url(/assets/css/tablet_footer.css);
 
-/* @import url(/assets/css/mobile_header.css); */
+/* DESKTOP */
+@import url(/assets/css/desktop_header.css);
+@import url(/assets/css/desktop_main.css);
+@import url(/assets/css/desktop_footer.css);
 
-/* --------------------------------------------------------------------- */
-
-/* PC */
-
-/* @import url(/assets/css/mobile_header.css); */
-
-
-* {
-
-}
 
 /* BARRA DE ROLAGEM E SCROLL */
-
 ::-webkit-scrollbar {
     width: 10px;
     height: 10px;
     background-color: var(--preto);
 }
-
 ::-webkit-scrollbar-thumb {
    background-color: var(--verde);
 }
+
+/* *{
+
+} */

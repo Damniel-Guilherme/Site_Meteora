@@ -1,11 +1,6 @@
-/* .carrossel {
-    border-bottom: solid 10px var(--verde);
-} */
-
-/* .main {
-    
-} */
-
+main {
+    background-color: rgb(241, 239, 239);
+}
 
 /* Section Categorias */
 
@@ -15,7 +10,6 @@
     grid-template-rows: auto auto;
     grid-template-areas:
     "titulo titulo";
-    /* margin: 0px 26px; */
     gap: 16px;
     align-items: center;
     justify-content: center;
@@ -23,10 +17,18 @@
     border-bottom: none;
 }
 
-.categorias_cards {
+.container_card {
     display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.categorias_cards {
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+    border: solid 3px var(--cinzaescuro);
 }
 
 /* Titulos do site */
@@ -47,6 +49,7 @@
 }
 
 .descricao_categorias {
+
     background-color: var(--preto);
     color: var(--branco);
     text-align: center;
@@ -61,28 +64,56 @@
 
 /* Section Produtos que estão bombando! */
 
-.bombando {
-    margin: 54px 0px 0px;
-    text-align: center;
+.produtos_bombando {
+    border: solid 10px var(--cinzaescuro);
+    border-bottom: none;
+    border-top: none;
 }
 
-.produtos_bombando {
-    display: flex;
+.container_bombando {
+    /* display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 30px;
-    border: solid 10px var(--cinza);
-    border-bottom: none;
-    border-top: none;
+    gap: 30px; */
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "produtosb";
+
+
+
     padding-bottom: 48px;
+
+    gap: 30px;
+}
+
+.bombando {
+    grid-area: produtosb;
+    width: 323px;
+    /* margin: 54px 0px 0px; */
+    padding-top: 54px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .produtos_cards {
+    margin: 0 auto;
     width: 325px;
+    min-height: 607px;
     display: flex;
     flex-direction: column;
-    border: solid 1px var(--cinza);
+    border: solid 2px var(--cinzaescuro);
+}
+
+.descricaoprodutos {
+    height: 117px;
+}
+
+.img_produtos {
+    width: 321px;
+    height: 402px;
 }
 
 .descricao_produtos {
@@ -127,8 +158,8 @@
 }
 
 .facilidades h4 {
-    margin: 0;
-
+    margin: 0 auto;
+    width: 321px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -171,11 +202,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 24px 20px;
+    width: 321px;
+    margin: 24px auto 0px;
     border: solid 1px var(--preto);
+    background-color: rgb(241, 239, 239);
 }
 
 .input_text {
+    width: 321px;
     text-align: center;
     padding: 20px;
     margin: 0px;

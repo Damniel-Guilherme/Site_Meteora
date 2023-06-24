@@ -1,5 +1,4 @@
 .footer {
-
     text-align: center;
     background-color: var(--preto);
     color: var(--branco);
@@ -7,7 +6,8 @@
 }
 
 .footer_text {
-    margin: 0px;
+    margin: 0 auto;
+    width: 237px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;

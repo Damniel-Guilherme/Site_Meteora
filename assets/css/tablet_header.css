@@ -1,0 +1,49 @@
+@media screen and (min-width: 768px) {
+    /* MENU HAMBURGUER */
+    .top {
+        justify-content:  space-between;
+        padding: 0px 18px 0px 23px;
+    }
+    
+    #menu {
+        gap: 20px;
+        visibility: visible;
+        flex-direction: row;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+        color: var(--branco);
+        padding: 0px;
+        margin: 0 auto;
+        /* margin-right: 30px; */
+        position: unset;
+    }
+
+    #btn-mobile {
+        display: none;
+    }
+
+    #menu li {
+        border: none;
+        margin: 0;
+
+    }
+
+    #menu a {
+        margin: 0;
+    }
+
+    /* LUPA */
+    .search-box {
+        order: 1;
+    }
+
+    .search-txt {
+        width: 125px;
+    }
+
+    .container_header {
+       display: flex;
+       gap: 20px;
+    }
+}
