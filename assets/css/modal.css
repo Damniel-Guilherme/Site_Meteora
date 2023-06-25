@@ -40,6 +40,7 @@
     border: none;
     padding: 0;
     margin: 0;
+    cursor: pointer;
 }
 
 #close_span {
@@ -128,12 +129,23 @@
     margin-top: 20px;
     display: flex;
     gap: 20px;
+    
 }
 
 .modal_radio2 {
     display: flex;
     flex-direction: column;
     height: 50px;
+}
+
+.modal_input_radio{
+    cursor: pointer;
+}
+
+#mir_1 {
+    color: #212529;
+    font-size: 30px;
+    background-color: blue;
 }
 
 .modal_tamanho {
@@ -163,6 +175,7 @@
     border: none;
     border-radius: 5px;
     margin-bottom: 20px;
+    cursor: pointer;
     
 }
 
