@@ -1,10 +1,10 @@
-
-.modal {
-   display: none;
+*{
+    padding: 0px;
+    margin: 0px;
 }
 
+
 .container_compra {
-    z-index: 999;
     width: 363px;
     /* height: 968px; */
     margin: 10px auto;
@@ -12,7 +12,6 @@
     border-radius: 5px;
     border: solid 2px #000;
 }
-
 /* HEADER */
 .container_header {
     width: auto;

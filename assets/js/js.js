@@ -17,3 +17,33 @@ function toggleMenu(event) {
 
 btnmobile.addEventListener('click' , toggleMenu);
 btnmobile.addEventListener('touchstart' , toggleMenu);
+
+
+//Cores
+const form = document.getElementById('formulario');
+const imagem = document.getElementById('imagem');
+
+const opcoes = form.querySelectorAll('input[type=radio][data-opcao-imagem]');
+
+opcoes.forEach(opcao => {
+    opcao.addEventListener('click', () => {
+        imagem.src = opcao.dataset.opcaoImagem;
+    });
+});
+
+//Modal
+document.getElementById('abrirModal').addEventListener('click', function() {
+    document.getElementById('modal').style.display = 'block';
+  });
+  
+  document.getElementsByClassName('fechar')[0].addEventListener('click', function() {
+    document.getElementById('modal').style.display = 'none';
+  });
+  
+  window.addEventListener('click', function(event) {
+    if (event.target == document.getElementById('modal')) {
+      document.getElementById('modal').style.display = 'none';
+    }
+  });
+
+  

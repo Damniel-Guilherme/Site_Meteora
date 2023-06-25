@@ -1,9 +1,9 @@
 main {
     background-color: rgb(241, 239, 239);
+    padding-bottom: 24px;
 }
 
 /* Section Categorias */
-
 .container_categorias {
     display: grid;
     grid-template-columns: auto auto;

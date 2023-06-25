@@ -24,7 +24,7 @@
 <header>
     <div class="top">
       <h1 class="logo"><img class="logoo" src="./assets/imgs/mobile/logo/logomobile.png" alt="logo meteora"></h1>
-        
+
       <div class="container_header">
         <div class="search-box">
           <input type="text" class="search-txt" placeholder="Digite o Produto">
@@ -42,7 +42,7 @@
           </ul>
         </nav>
       </div>
-    </div> 
+    </div>
 </header>
 
 <main>
@@ -61,7 +61,7 @@
             <source srcset="/assets/imgs/desktop/carrossel/banner1.png" media="(min-width: 1440px)">
             <source srcset="/assets/imgs/tablet/carrossel/banner1.png" media="(min-width: 768px)">
             <img class="d-block w-100 imgcarrossel" src="/assets/imgs/mobile/carrossel/banner1.png" alt="banner do carrossel">
-            
+
           </picture>
         </div>
 
@@ -190,7 +190,7 @@
           <p class="bomb_text">Modelo unissex oversized com gola de camurça. Atemporal e autêntica!</p>
           <h4 class="bomb_valor">R$ 150,00</h4>
         </div>
-        <a href="#" class="vermais">Ver mais</a>
+        <a id="abrirModal" class="vermais">Ver mais</a>
       </div>
       <div class="produtos_cards">
         <picture>
@@ -246,12 +246,12 @@
       </div>
     </div>
   </section>
-  
+
   <section class="container_email">
     <p class="input_text">Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? <b>Cadastre-se!</b></p>
     <div class="container_enviar">
       <input class="input_email" type="email" name="email" placeholder="Digite seu email"/>
-      <input class="enviar" type="submit" value="enviar" />  
+      <input class="enviar" type="submit" value="enviar" />
     </div>
   </section>
   <!-- <a href="#" class="enviar">Enviar</a> -->
@@ -261,6 +261,80 @@
     <p class="footer_text">2023 © Desenvolvido por Alura | Projeto fictício sem fins comerciais.</p>
   </div>
 </footer>
+
+
+<div id="modal" class="container_compra modal">
+  <div class="container_header">
+    <img src="/assets/imgs/shop/checkcircle.svg" alt="check circle" width="32px">
+    <h2 class="titulo_compra">Confira detalhes sobre o produto</h2>
+    <!-- <img class="fecha" src="/assets/imgs/shop/fechar.png" alt="fechar" width="40px" height="40px"> -->
+    <button class="fechar" id="fechar">teste</button>
+  </div>
+  <div class="desktop">
+
+      <div class="container_img">
+        <img class="shop_img" id="imagem" src="./assets/imgs/mobile/imagenscards/jaqueta.png" alt="jaqueta">
+      </div>
+
+    <div class="teste">
+
+      <div class="container_descricao">
+        <h3 class="container_texth3">Jaqueta Jeans</h3>
+        <p class="container_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </div>
+      <div class="container_valor">
+        <h4 class="valor_h4" >R$ 150,00</h4>
+        <p class="valor_p">Vendido e entregue por Riachuelo</p>
+      </div>
+      <form class="cores" id="formulario">
+        <h4 class="cores_h4">Cores</h4>
+        <div class="container_radio">
+          <div class="radio">
+            <input type="radio" data-opcao-imagem="./assets/imgs/mobile/imagenscards/jaqueta.png" name="teste">
+            <label for="teste">Azul Claro</label>
+          </div>
+          <div class="radio">
+            <input type="radio" data-opcao-imagem="./assets/imgs/mobile/imagenscards/bolsa.png"  name="teste">
+            <label for="teste2">Offwhite</label>
+          </div>
+          <div class="radio">
+            <input type="radio" data-opcao-imagem="./assets/imgs/mobile/imagenscards/tenis.png" name="teste">
+            <label for="teste3">Preto</label>
+          </div>
+        </div>
+      </form>
+      <form class="tamanho">
+        <h4 class="tamanho_h4">Tamanho:</h4>
+        <div class="container_radio">
+          <div class="radio">
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">P</label><br>
+          </div>
+          <div class="radio">
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">PP</label><br>
+          </div>
+          <div class="radio">
+            <input type="radio" name="fav_language" value="JavaScript">
+            <label for="javascript">M</label>
+          </div>
+          <div class="radio">
+            <input type="radio" name="fav_language" value="JavaScript">
+            <label for="javascript">G</label>
+          </div>
+          <div class="radio">
+            <input type="radio" name="fav_language" value="JavaScript">
+            <label for="javascript">GG</label>
+          </div>
+        </div>
+      </form>
+      <div class="btn_comprar">
+        <button class="butao">Adicionar à Sacola</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
 
 <!-- Bootstrap -->
 
