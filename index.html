@@ -269,88 +269,96 @@
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-
-        <div class="container_compra">
-          <div class="container_header2">
-            <div class="div_dd">
-              <img src="/assets/imgs/shop/checkcircle.svg" alt="check circle" width="32px">
-              <h2 class="titulo_compra">Confira detalhes sobre o produto</h2>
-            </div>
-            <button type="button" id="closee" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="desktop">
-            
-              <div class="container_img">
-                <img class="shop_img" src="./assets/imgs/mobile/imagenscards/jaqueta.png" alt="jaqueta">
-              </div>
-              
-            <div class="teste">
-            
-              <div class="container_descricao">
-                <h3 class="container_texth3">Jaqueta Jeans</h3>
-                <p class="container_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-              </div>
-              <div class="container_valor">
-                <h4 class="valor_h4" >R$ 150,00</h4>
-                <p class="valor_p">Vendido e entregue por Riachuelo</p>
-              </div>
-              <div class="cores">
-                <h4 class="cores_h4">Cores</h4>
-                <div class="container_radio">
-                  <div class="radio">
-                    <input type="radio" id="html" name="fav_language" value="HTML">
-                    <label for="html">Azul Claro</label><br>
-                  </div>
-                  <div class="radio">
-                    <input type="radio" id="css" name="fav_language" value="CSS">
-                    <label for="css">Offwhite</label><br>
-                  </div>
-                  <div class="radio">
-                    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-                    <label for="javascript">Preto</label>
-                  </div>
-                </div>
-              </div>
-              <div class="tamanho">
-                <h4 class="tamanho_h4">Tamanho:</h4>
-                <div class="container_radio">
-                  <div class="radio">
-                    <input type="radio" id="html" name="fav_language" value="HTML">
-                    <label for="html">P</label><br>
-                  </div>
-                  <div class="radio">
-                    <input type="radio" id="css" name="fav_language" value="CSS">
-                    <label for="css">PP</label><br>
-                  </div>
-                  <div class="radio">
-                    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-                    <label for="javascript">M</label>
-                  </div>
-                  <div class="radio">
-                    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-                    <label for="javascript">G</label>
-                  </div>
-                  <div class="radio">
-                    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-                    <label for="javascript">GG</label>
-                  </div>
-                </div>
-              </div>
-              <div class="btn_comprar">
-                <button class="butao">Adicionar à Sacola</button>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Voltar</button>
-                <button type="button" class="btn btn-primary">Finalizar Compra</button>
-              </div>
-            </div>
+  <div id="modal_responsive" class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div id="modal_header" class="modal-header">
+        <div class="modal_top">
+            <img src="/assets/imgs/modal/checkcircle.svg" alt="icon check">
+            <h5 class="modal-title" id="exampleModalLongTitle">Confira detalhes sobre o produto</h5>
+        </div>
+        <div>
+          <button type="button" id="close" data-dismiss="modal" aria-label="Close">
+            <span id="close_span" aria-hidden="true">&times;</span>
+            <!-- <img id="close_span" aria-hidden="true" src="/assets/imgs/modal/fechar.png" alt="fechar"> -->
+          </button>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div>
+          <img class="modal_img" id="imagem" src="./assets/imgs/mobile/imagenscards/jaqueta.png" alt="jaqueta">
+          <div class="modal_desktop">
+            <img class="modal_img_desktop" src="/assets/imgs/mobile/imagenscards/jaqueta.png" alt="bolsa">
+            <img class="modal_img_desktop" src="/assets/imgs/mobile/imagenscards/jaqueta.png" alt="bolsa">
+            <img class="modal_img_desktop" src="/assets/imgs/mobile/imagenscards/jaqueta.png" alt="bolsa">
           </div>
         </div>
+        <div>
+          <div class="modal_descricao">
+            <h3 class="modal_titulo">Jaqueta Jeans</h3>
+            <p class="model_text">Modelo unissex oversized com gola de camurça. Atemporal e autêntica!</p>
+          </div>
+
+          <div class="modal_valor">
+            <h3 class="modal_real" >R$ 150,00</h3>
+            <p class="modal_entregue">Vendido e entregue por Riachuelo</p>
+          </div>
+
+          <form class="modal_cores" id="formulario">
+            <h4 class="modal_cores_titulo">Cores</h4>
+            <div class="modal_radio">
+              <div class="modal_radio2">
+                <input type="radio" data-opcao-imagem="./assets/imgs/mobile/imagenscards/jaqueta.png" name="teste">
+                <label for="teste">Azul Claro</label>
+              </div>
+              <div class="modal_radio2">
+                <input type="radio" data-opcao-imagem="./assets/imgs/mobile/imagenscards/bolsa.png"  name="teste">
+                <label for="teste2">Offwhite</label>
+              </div>
+              <div class="modal_radio2">
+                <input type="radio" data-opcao-imagem="./assets/imgs/mobile/imagenscards/tenis.png" name="teste">
+                <label for="teste3">Preto</label>
+              </div>
+            </div>
+          </form>
+        
+          <div class="modal_cores">
+            <h4 class="modal_cores_titulo">Tamanho:</h4>
+            <div class="modal_radio modal_tamanho">
+              <div class="modal_radio2">
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">P</label><br>
+              </div>
+              <div class="modal_radio2">
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">PP</label><br>
+              </div>
+              <div class="modal_radio2">
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">M</label>
+              </div>
+              <div class="modal_radio2">
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">G</label>
+              </div>
+              <div class="modal_radio2">
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">GG</label>
+              </div>
+            </div>
+          </div>
+          <div class="modal_comprar">
+            <button class="modal_btn_comprar">Adicionar à Sacola</button>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Voltar</button>
+            <button type="button" class="btn btn-primary">Finalizar Compra</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+
 
 
 

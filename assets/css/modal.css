@@ -1,0 +1,183 @@
+#modal_responsive {
+    border: solid 1px #000;
+    border-radius: 5px;
+}
+
+.modal-header {
+    background-color: black;
+}
+
+#modal_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 15px 15px;
+}
+
+.modal_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.modal-title {
+    color: #FFF;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+#close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+#close_span {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.modal-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #f0f0f0;
+}
+
+.modal_img {
+    border: solid 2px #000;
+    border-radius: 5px;
+    max-width: 333px;
+}
+
+.modal_desktop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 5px;
+}
+
+.modal_img_desktop {
+    display: none;
+    width: 80px;
+}
+
+.modal_descricao {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: solid 1px #000;
+}
+
+.model_text {
+    text-align: start;
+}
+
+.modal_valor {
+    text-align: center;
+    border-bottom: solid 1px #D8D8D8;
+}
+
+.modal_real {
+    margin-top: 20px;
+    color: #212529;
+    /* Basic Typography/H5 Heading */
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+.modal_entregue {
+    color: #ADB5BD;
+    /* Basic Typography/Paragraph Small */
+    font-size: 13px;
+    font-family: Inter;
+    line-height: 20px;
+}
+
+.modal_cores {
+    margin: 20px 0px;
+    border-bottom: solid 1px #D8D8D8;
+}
+
+.modal_cores_titulo {
+    color: #212529;
+    /* Basic Typography/Paragraph Small Bold */
+    font-size: 13px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.modal_radio {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.modal_radio2 {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+}
+
+.modal_tamanho {
+    padding-left: 25px;
+}
+
+.modal_comprar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: solid 1px #D8D8D8; */
+}
+
+.modal_btn_comprar {
+    height: 38px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    letter-spacing: 0.457px;
+    color: #fff;
+    background-color: #9353FF;;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+
+/* RESPONSIVO */
+@media screen and (min-width: 768px) {
+    #modal_responsive {
+        max-width: 700px;
+    }
+    .modal-body {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        align-items: start;
+    }
+    .modal_img_desktop {
+        display: block;
+    }
+}

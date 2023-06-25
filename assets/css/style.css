@@ -25,11 +25,8 @@
 @import url(/assets/css/desktop_main.css);
 @import url(/assets/css/desktop_footer.css);
 
-/* SHOP */
-@import url(/assets/css/shop.css);
-
-@import url(/modal.html);
-
+/* MODAL */
+@import url(/assets/css/modal.css);
 
 /* BARRA DE ROLAGEM E SCROLL */
 ::-webkit-scrollbar {
