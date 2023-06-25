@@ -28,6 +28,8 @@
 /* SHOP */
 @import url(/assets/css/shop.css);
 
+@import url(/modal.html);
+
 
 /* BARRA DE ROLAGEM E SCROLL */
 ::-webkit-scrollbar {

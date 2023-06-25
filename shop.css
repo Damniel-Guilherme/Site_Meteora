@@ -3,15 +3,20 @@
     margin: 0px;
 }
 
+.modale {
+    margin: 0;
+    padding: 0;
+}
 
 .container_compra {
-    width: 363px;
+    width: 100%;
     /* height: 968px; */
-    margin: 10px auto;
+    margin: 0;
     background-color: #f0f0f0;
     border-radius: 5px;
     border: solid 2px #000;
 }
+
 /* HEADER */
 .container_header {
     width: auto;
