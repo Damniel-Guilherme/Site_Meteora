@@ -1,9 +1,10 @@
-
 .modal {
    display: none;
 }
 
 .container_compra {
+    /* width: 100%;
+    height: 100vh; */
     z-index: 999;
     width: 363px;
     /* height: 968px; */
