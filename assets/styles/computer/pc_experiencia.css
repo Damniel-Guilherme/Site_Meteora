@@ -1,0 +1,23 @@
+@media screen and (min-width: 1440px) {
+    main .experiencia_banner {
+        background-image: url(../../imgs/computer/main_experiencia_banner.png);
+    }
+    
+    main .artigos {
+     margin: 64px 121.5px 128px;   
+    }
+    
+    main .artigos article {
+        flex-direction: row;
+    }
+ 
+    main .artigos .row-reverse {
+        flex-direction: row-reverse;
+        text-align: end;
+    }
+
+    main .artigos article .artigo_text > p {
+        text-align: start;
+        width: 540px;
+    }
+}

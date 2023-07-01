@@ -1,0 +1,13 @@
+@media screen and (min-width: 768px) {
+    footer address {
+        flex-direction: row;
+    } 
+    main .banner_domingo {
+        width: 100%;
+        max-height: 338px;
+    }
+    footer .footer_text {
+        display: flex;
+        gap: 8px;
+    }
+}

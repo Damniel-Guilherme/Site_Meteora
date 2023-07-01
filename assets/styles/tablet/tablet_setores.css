@@ -1,0 +1,8 @@
+@media screen and (min-width: 768px) {
+    main .setores_banner {
+        background-image: url(../../imgs/tablet/main_setores_banner.png);
+    }
+    main .pistas article p {
+        width: 382px;
+    }
+}

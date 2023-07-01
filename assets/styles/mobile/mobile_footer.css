@@ -1,0 +1,71 @@
+footer .foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: var(--background_azul);
+}
+
+footer address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+footer h3 {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+footer address li > a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+footer address ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+footer address ul li:nth-child(1) {
+    width: 2em;
+    height: 2em;
+    background-image: url(../../imgs/mobile/footer_icon_whatsapp.svg);
+    background-repeat: no-repeat;
+}
+
+footer address ul li:nth-child(2) {
+    width: 2em;
+    height: 2em;
+    background-image: url(../../imgs/mobile/footer_icon_twitch.svg);
+    background-repeat: no-repeat;
+}
+
+footer address ul li:nth-child(3) {
+    width: 2em;
+    height: 2em;
+    background-image: url(../../imgs/mobile/footer_icon_instagram.svg);
+    background-repeat: no-repeat;
+}
+
+footer address ul li:nth-child(4) {
+    width: 2em;
+    height: 2em;
+    background-image: url(../../imgs/mobile/footer_icon_twitter.svg);
+    background-repeat: no-repeat;
+}
+
+footer .footer_text {
+    color: var(--texto_branco);
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 32px 0px 24px;
+}

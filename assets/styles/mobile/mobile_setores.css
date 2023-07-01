@@ -1,0 +1,79 @@
+main .setores_banner {
+    background-image: url(../../imgs/mobile/main_setores_banner.png);
+    background-attachment: local;
+} 
+
+main .mapa_setores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .mapa_setores img {
+    width: 85%;
+    max-width: 690px;
+    max-height: 609px;
+    margin-top: 32px;
+    object-fit: cover;
+
+}
+
+main .mapa_setores_opcoes {
+    text-align: center;
+    font-family: 'raleway',sans-serif;
+    color: var(--texto_branco);
+    text-align: start;
+    padding: 0px 57px;
+}
+
+main .mapa_setores_opcoes > h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+main .mapa_setores_opcoes > ul{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+main .pistas {
+    display: flex;
+    flex-direction: column;
+    margin: 36px 24px 32px;
+    text-align: center;
+    font-family: 'raleway',sans-serif;
+    color: var(--texto_branco);
+}
+
+main section > h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    margin-bottom: 32px;
+}
+
+main .pistas article img {
+    width: 100%;
+    max-width: 382.4px;
+    height: 239px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+main .pistas article h3 {
+    margin: 24px 0px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+}
+
+main .pistas article p {
+    width: 320px;
+    margin: 0 auto 32px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+}

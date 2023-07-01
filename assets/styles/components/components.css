@@ -1,0 +1,73 @@
+/* Botões */
+
+/* BOTÃO COMPRAR */
+
+.btn_comprar {
+   width: 312px;
+   height: 56px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: var(--texto_branco);
+   background-color: var(--btn_comprar);
+   border: none;
+   border-radius: 16px;
+   gap: 16px;
+   
+   /* background-image: url(/assets/imgs/mobile/btn_comprar_icon.svg);
+   background-repeat: no-repeat;
+   background-position: 90%; */
+   box-shadow: 0.2em 0.2em 0.1em black;
+
+
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+}
+
+.btn_comprar:hover {
+    background-color: var(--btn_comprar_hover);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.icon_comprar {
+    width: 32px;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+/* BOTÃO AVANÇAR */
+
+.btn_avancar {
+    width: 164px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--texto_branco);
+    background-color: var(--btn_comprar);
+    border: none;
+    border-radius: 16px;
+    gap: 16px;
+    
+    box-shadow: 0.2em 0.2em 0.1em black;
+ 
+ 
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+ }
+ 
+ .btn_avancar:hover {
+    background-color: var(--btn_comprar_hover);
+    transition: all 0.3s ease;
+ }
+ 
+ .icon_avancar {
+    width: 20px;
+    font-size: 32px;
+    line-height: 40px;
+ }

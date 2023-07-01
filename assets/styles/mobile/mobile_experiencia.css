@@ -1,0 +1,66 @@
+main .experiencia_banner {
+    background-image: url(../../imgs/mobile/main_experiencia_banner.png);
+    background-attachment: local;
+}
+
+main .artigos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 32px 24px 64px;
+}
+
+
+main .artigos .banner_img-1 {
+    /* width: 87.4vw;
+    max-width: 609px;;
+    height: 105.6vw;
+    max-height: 85vh; */
+    width: 87.4vw;
+    max-width: 609px;
+    height: 381px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+main .artigos article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    /* width: 610px; */
+}
+
+main .artigo_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .artigos article .artigo_text > h2 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+
+    margin-bottom: 24px;
+    color: var(--texto_branco);
+}
+
+main .artigos article .artigo_text > p {
+    
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+
+    margin-bottom: 24px;
+    color: var(--texto_branco);
+}
+

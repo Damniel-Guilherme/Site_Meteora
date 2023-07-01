@@ -1,0 +1,12 @@
+@media screen and (min-width: 1440px) {
+    footer .foot {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 50px 120px 60px;
+    }
+    footer .footer_text {
+        display: flex;
+        flex-direction: column;
+    }
+}

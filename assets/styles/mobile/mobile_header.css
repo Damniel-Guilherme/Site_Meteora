@@ -1,0 +1,106 @@
+/* LOGO TIPO */
+
+header {
+    background-color: var(--background_azul);
+}
+
+header .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 24px;
+}
+
+/* LOGOTIPO DO HEADER E DO FOOTER */
+.logotipo_img-1 {
+    width: 233.9px;
+    height: 64px;
+}
+
+/* MENU-HAMBURGUER */
+
+#menu {
+    display: block;
+    position: absolute;
+    /* width: 100%; */
+    height: 0px;
+    top: 90px;
+    right: -4px;
+    transition: all 0.6s ease;
+    z-index: 1000;  
+    visibility: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: #4650BD;
+}
+
+#nav.active #menu {
+    height: auto;
+    visibility: visible;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#menu, .icons_menu{
+    margin-right: 5px;
+ }
+
+#menu li {
+    background-color: #4650BD;
+}
+
+#menu a { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 16px;
+    padding: 10px;
+    color: #fff;
+    background-color: #4650BD;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+#menu a:hover {
+    background-color: #3e46a0;
+    transition: all 0.2s ease;
+}
+
+#btn-mobile {
+    display: flex;
+    padding: .5rem 0.5rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    gap: .5rem;
+    color: #fff;
+    background-color: transparent;
+}
+
+#hamburger {
+    display: block;
+    border-top: 2px solid;
+    width: 20px;
+}
+
+#hamburger::after, #hamburger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: .3s;
+    position: relative;
+}
+
+#nav.active #hamburger {
+    border-top-color: transparent;
+}
+#nav.active #hamburger:before {
+    transform: rotate(135deg);
+}
+#nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+}
+

@@ -1,0 +1,106 @@
+main .informacoes_banner {
+    background-image: url(../../imgs/mobile/main_ingresso_banner.png);
+    background-attachment: local;
+}
+
+main .formulario {
+    width: 90%;
+    margin: 0 auto;
+
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(7, auto);
+    column-gap: 1.7vw;
+    
+    grid-template-areas: 'title title'
+                         'nome nome'
+                         'email email'
+                         'ingresso ingresso'
+                         'nascimento nascimento'
+                         'btn btn';
+    gap: 32px;
+}
+
+main .form_title {
+    grid-area: title;
+}
+
+main .form {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+main .form_nome {
+    grid-area: nome;
+    margin: 0 auto;
+}
+
+main .form_email {
+    grid-area: email;
+    margin: 0 auto;
+}
+
+main .form_ingresso {
+    grid-area: ingresso;
+    /* margin: 0 auto; */
+}
+
+main .options_ingressos {
+    /* width: 100%; */
+    height: 56px;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 37.57px;
+    color: rgba(0, 0, 0, 0.836);
+    margin-bottom:  8px;
+}
+
+main .formulario option {
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 37.57px;
+    color: rgba(0, 0, 0, 0.836);
+    margin-bottom:  8px;
+    /* background-color: rgba(2, 2, 100, 0.863); */
+}
+
+main .form_nascimento {
+    grid-area: nascimento;
+    margin: 0 auto;
+}
+
+main .btn_avancar {
+    grid-area: btn;
+    margin: 0 auto;
+}
+
+main input {
+    width: 70vw;
+    max-width: 795px;
+    height: 48px;
+    padding-left: 20px;
+}
+
+main .formulario h2 {
+    text-align: center;
+    font-family: 'Calistoga',sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41.6px;
+    color: rgb(255, 255, 255);
+    margin: 32px 0px 16px;
+}
+
+main .formulario h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 37.57px;
+    color: rgb(255, 255, 255);
+    margin-bottom:  8px;
+}
+

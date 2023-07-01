@@ -1,0 +1,63 @@
+/* MOBILE */
+
+@import url(../mobile/mobile_header.css);
+@import url(../mobile/mobile_index.css);
+@import url(../mobile/mobile_footer.css);
+@import url(../mobile/mobile_experiencia.css);
+@import url(../mobile/mobile_setores.css);
+@import url(../mobile/mobile_informacoes.css);
+@import url(../mobile/mobile_ingressos.css);
+@import url(../mobile/mobile_seuingresso.css);
+
+/* TABLET */
+@import url(../tablet/tablet_header.css);
+@import url(../tablet/tablet_index.css);
+@import url(../tablet/tablet_footer.css);
+@import url(../tablet/tablet_experiencia.css);
+@import url(../tablet/tablet_setores.css);
+@import url(../tablet/tablet_informacoes.css);
+@import url(../tablet/tablet_ingressos.css);
+@import url(../tablet/tablet_seuingresso.css);
+
+/* PC */
+@import url(../computer/pc_header.css);
+@import url(../computer/pc_index.css);
+@import url(../computer/pc_footer.css);
+@import url(../computer/pc_experiencia.css);
+@import url(../computer/pc_setores.css);
+@import url(../computer/pc_informacoes.css);
+@import url(../computer/pc_ingressos.css);
+@import url(../computer/pc_seuingresso.css);
+
+/* COMPONENTS */
+@import url(../components/components.css);
+@import url(../components/cores.css);
+/* @import url(/assets/styles/components/fonts.css); */
+/* @import url(/assets/styles/efects.css); */
+
+/* * {
+
+} */
+
+body {
+    background: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
+    background-repeat: no-repeat;
+    text-rendering: optimizeSpeed;
+    box-sizing: border-box;
+
+    min-width: 300px;
+    max-width: 3000px;
+    margin: 0 auto;
+}
+
+/* BARRA DE ROLAGEM E SCROLL */
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(52, 56, 107);
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: rgb(26, 91, 177);
+}

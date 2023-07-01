@@ -1,0 +1,6 @@
+@media screen and (min-width: 768px) {
+    header .head {
+        flex-direction: column;
+        gap: 32px;
+    }
+}

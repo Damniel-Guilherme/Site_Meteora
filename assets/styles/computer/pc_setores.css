@@ -1,0 +1,30 @@
+@media screen and (min-width: 1440px) {
+    main .setores_banner {
+        background-image: url(../../imgs/computer/main_setores_banner.png);
+    }
+    
+    main .mapa_setores {
+        flex-direction: row;
+    }
+
+    main section > h2 {
+
+        margin: 80px auto 48px;
+    }
+
+    main .pistas_row {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        gap: 24.6px;
+        
+    }
+
+    main .pistas article img {
+        min-width: 382.39px
+    }
+    
+    main .pistas_premium {
+        margin-top: 106px;
+    }
+} 

@@ -1,0 +1,5 @@
+@media screen and (min-width: 768px) {
+    main .informacoes_banner {
+        background-image: url(../../imgs/tablet/main_informacoes_banner.png);
+    }
+}

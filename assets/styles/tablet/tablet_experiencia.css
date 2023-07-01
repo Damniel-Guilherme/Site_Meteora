@@ -1,0 +1,5 @@
+@media screen and (min-width: 768px) {
+    main .experiencia_banner {
+        background-image: url(../../imgs/tablet/main_experiencia_banner.png);
+    }
+}

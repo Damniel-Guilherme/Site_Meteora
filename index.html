@@ -2,372 +2,170 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>METEORA</title>
-    <link rel="icon" href="/assets/imgs/icons/Favicon-48x.png" type="image/png">
+    <title>CodeChella</title>
 
+    <!-- Fonts -->
 
-    <!-- FONTES -->
-
+    <!-- Raleway -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700;800&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Calistoga -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Styles -->
+    <!-- <link rel="stylesheet" href="../Site_Codechella/assets/styles/components/reset.css">
+    <link rel="stylesheet" href="../Site_Codechella/assets/styles/components/style.css"> -->
 
-    <script src="/assets/js/js.js" defer></script>
+    <link rel="stylesheet" href="assets/styles/components/reset.css">
+    <link rel="stylesheet" href="assets/styles/components/style.css">
+
+    <script src="assets/javascript/js.js" defer></script>
+
 </head>
 <body>
-<header>
-    <div class="top">
-      <h1 class="logo"><img class="logoo" src="./assets/imgs/mobile/logo/logomobile.png" alt="logo meteora"></h1>
 
-      <div class="container_header">
-        <div class="search-box">
-          <input type="text" class="search-txt" placeholder="Digite o Produto">
-          <a class="search-btn" href="#">
-            <img src="./assets/imgs/icons/lupa.svg" alt="icon lupa" width="25px">
-          </a>
+<!-- HEADER -->
+
+<header>
+    <div class="head">
+        <div class="logotipo">
+            <h1><img class="logotipo_img-1" src="assets/imgs/mobile/head_logo.png" alt="logo tipo CodeChella"/></h1>
         </div>
+
+        <!-- MENU HAMBURGUER -->
+
         <nav id="nav">
-          <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false"><span id="hamburger"></span></button>
-          <ul id="menu" role="menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Nossas lojas</a></li>
-            <li><a href="#">Novidades</a></li>
-            <li><a href="#">Promoções</a></li>
-          </ul>
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false"><span id="hamburger"></span></button>
+            <ul id="menu" role="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="./pages/experiencia.html">A experiência</a></li>
+                <li><a href="./pages/setores.html">Mapa de Setores</a></li>
+                <li><a href="./pages/informacoes.html">Informações</a></li>
+                <li><a href="./pages/ingressos.html">ingressos</a></li>
+            </ul>
         </nav>
-      </div>
     </div>
 </header>
 
+<!-- MAIN -->
+
 <main>
+    <!-- BANNER BOAS VINDAS -->
+    <div class="banner_boasvindas">
+        <h1>Boas-Vindas ao<br>#CodeChella2023!</h1>
+    </div>
 
-  <!-- Carrosel em Boootstrap -->
-  <section class="carrossel">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <picture>
-            <source srcset="/assets/imgs/desktop/carrossel/banner1.png" media="(min-width: 1440px)">
-            <source srcset="/assets/imgs/tablet/carrossel/banner1.png" media="(min-width: 768px)">
-            <img class="d-block w-100 imgcarrossel" src="/assets/imgs/mobile/carrossel/banner1.png" alt="banner do carrossel">
-
-          </picture>
+    <!-- ARTIGO-1 -->
+    <div class="artigo-1">
+            <article>
+                <img class="banner_img-1" src="assets/imgs/mobile/main_principal-1.webp" alt="banner homens com guitarra"/>
+                <div class="artigo_text">
+                    <h2><11 e 12 de Março><br>Aluródromo de São Paulo</h2>
+                    <p>Hora de programar nossa memória com novas lembranças! Uma nova experiência sobre música, linguagens e, claro, tecnologia! Somos um festival diverso, com vários artistas e referências. Divirta-se!</p>
+                    <a href="#" class="btn_comprar">Comprar ingresso!<img class="icon_comprar" src="./assets/imgs/components/btn_comprar_icon.svg" alt="icone do botão comprar"/></a>  
+                </div>      
+            </article>
         </div>
 
-        <div class="carousel-item">
-          <picture>
-            <source srcset="/assets/imgs/desktop/carrossel/banner2.png" media="(min-width: 1440px)">
-            <source srcset="/assets/imgs/tablet/carrossel/banner2.png" media="(min-width: 768px)">
-            <img class="d-block w-100 imgcarrossel" src="/assets/imgs/mobile/carrossel/banner2.png" alt="banner do carrossel">
-          </picture>
-        </div>
-        <div class="carousel-item">
-          <picture>
-            <source srcset="/assets/imgs/desktop/carrossel/banner3.png" media="(min-width: 1440px)">
-            <source srcset="/assets/imgs/tablet/carrossel/banner3.png" media="(min-width: 768px)">
-            <img class="d-block w-100 imgcarrossel" src="/assets/imgs/mobile/carrossel/banner3.png" alt="banner do carrossel">
-          </picture>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </section>
+    <!-- LINE-UP -->
+    <div class="line-up">
+        <h2>/Line-Up/</h2>
 
-    <!-- Section Categorias com Display Grid -->
-  <section class="container_categorias">
-    <h3 class="titulo categoria">Busque por categoria:</h3>
-    <div class="categorias_cards card1">
-      <picture>
-        <source srcset="./assets/imgs/desktop/categorias/camisetas.png" media="(min-width: 1440px)">
-        <source srcset="./assets/imgs/tablet/categorias/camisetas.png" media="(min-width: 768px)">
-        <img src="./assets/imgs/mobile/categorias/camisetas.png" alt="categoria camisetas">
-        <figcaption class="descricao_categorias">Camiseta</figcaption>
-      </picture>
-    </div>
-    <div class="categorias_cards card2">
-      <picture>
-        <source srcset="./assets/imgs/desktop/categorias/bolsas.png" media="(min-width: 1440px)">
-        <source srcset="./assets/imgs/tablet/categorias/bolsas.png" media="(min-width: 768px)">
-        <img src="./assets/imgs/mobile/categorias/bolsas.png" alt="categoria bolsas">
-        <figcaption class="descricao_categorias">Bolsas</figcaption>
-      </picture>
-    </div>
-    <div class="categorias_cards card3">
-      <picture>
-        <source srcset="./assets/imgs/desktop/categorias/calçados.png" media="(min-width: 1440px)">
-        <source srcset="./assets/imgs/tablet/categorias/calçados.png" media="(min-width: 768px)">
-        <img src="./assets/imgs/mobile/categorias/calçados.png">
-        <figcaption class="descricao_categorias">Calçados</figcaption>
-      </picture>
-    </div>
-    <div class="categorias_cards card4">
-      <picture>
-        <source srcset="./assets/imgs/desktop/categorias/calças.png" media="(min-width: 1440px)">
-        <source srcset="./assets/imgs/tablet/categorias/calças.png" media="(min-width: 768px)">
-        <img src="./assets/imgs/mobile/categorias/calças.png" alt="categoria calças">
-        <figcaption class="descricao_categorias">Calças</figcaption>
-      </picture>
-    </div>
-    <div class="categorias_cards card5">
-      <picture>
-        <source srcset="./assets/imgs/desktop/categorias/casacos.png" media="(min-width: 1440px)">
-        <source srcset="./assets/imgs/tablet/categorias/casacos.png" media="(min-width: 768px)">
-        <img src="./assets/imgs/mobile/categorias/casacos.png" alt="categoria casacos">
-        <figcaption class="descricao_categorias">Casacos</figcaption>
-      </picture>
-    </div>
-    <div class="categorias_cards card6">
-      <picture>
-        <source srcset="./assets/imgs/desktop/categorias/oculos.png" media="(min-width: 1440px)">
-        <source srcset="./assets/imgs/tablet/categorias/oculos.png" media="(min-width: 768px)">
-        <img src="./assets/imgs/mobile/categorias/oculos.png" alt="categoria oculos">
-        <figcaption class="descricao_categorias">Óculos</figcaption>
-      </picture>
-    </div>
-  </section>
+        <!-- SECTION_SABADO  -->
+        <section class="section_sabado">
+            <h3 class=background_dia>SÁBADO <11/03></h3>
+            <ul>
+                <li class="dias_bandas grupo-0">System of a DOM</li>
+                    <ol class="nomes_bandas grupo-1">
+                        <li>Python Maiden</li>
+                        <li>Apollo Client 2001</li>
+                        <span class="bandas_duo">
+                            <li>Bon java</li>
+                            <li>NickCallback</li>
+                        </span>
+                    </ol>
+                    <ol class="nomes_bandas grupo-2">
+                        <li>Linkin Promises</li>
+                        <li>Fullstack Fighters</li>
+                        <span class="bandas_duo">
+                            <li>Papa React</li>
+                            <li>Angular in Chains</li>
+                        </span>
+                   </ol>
+                    <ol class="nomes_bandas grupo-3">
+                        <li>Agnostic Front-end</li>
+                        <li>SplikNode</li>
+                        <span class="bandas_duo">
+                            <li>Pink Flutter</li>
+                            <li>Kiss</li>
+                        </span>
+                    </ol>
+                <!-- </span> -->
+            </ul>
+        </section>
 
-  <!-- SECTION PRODUTOS BOMBANDO -->
-  <section class="produtos_bombando">
-    <div class="container_bombando">
-      <h3 class="titulo bombando">Produtos que estão bombando!</h3>
-      <div class="produtos_cards">
-        <picture>
-          <img class="img_produtos" src="./assets/imgs/mobile/imagenscards/camiseta.png" alt="banner camiseta">
-          <figcaption class="descricao_produtos">Camiseta</figcaption>
-        </picture>
-        <div class="descricaoprodutos">
-          <p class="bomb_text">Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.</p>
-          <h4 class="bomb_valor">R$ 70,00</h4>
+        <!-- SECTION_DOMINGO  -->
+        <section class="section_domingo">
+            <h3 class="background_dia">DOMINGO <12/03></h3>
+            <ul>
+                <li class="dias_bandas grupo-0">Lana Del Ploy</li>
+                <ol class="nomes_bandas grupo-1">
+                    <li>Dua Lib</li>
+                    <li>The Backnd</li>
+                    <li>CSS Styles</li>
+                    <span class="bandas_duo">
+                        <li>DJ Query</li>
+                        <li>ArrayaAna Grande</li>
+                    </span>
+                </ol>
+                <ol class="nomes_bandas grupo-2">
+                    <li>Miley Cypress</li>
+                    <li>The Bootstrap Boys</li>
+                    <span class="bandas_duo">
+                        <li>Json Derulo</li>
+                        <li>CloudPlay</li>
+                        <li>Dev Lovato</li>
+                    </span>
+                </ol>
+                <ol class="nomes_bandas grupo-3">
+                    <li>Kylie MiLOG</li>
+                    <li>Jenkins Brothers</li>
+                    <li>Rubycat Dolls</li>
+                </ol>
+            </ul>
         </div>
-          <a href="#" class="vermais">Ver mais</a>
-      </div>
-      <div class="produtos_cards">
-        <picture>
-          <img class="img_produtos" src="./assets/imgs/mobile/imagenscards/calça.png" alt="banner calça">
-          <figcaption class="descricao_produtos">Calça Alfaiataria</figcaption>
-        </picture>
-        <div class="descricaoprodutos">
-          <p class="bomb_text">Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!</p>
-          <h4 class="bomb_valor">R$ 180,00</h4>
-      </div>
-        <a href="#" class="vermais">Ver mais</a>
-      </div>
-      <div class="produtos_cards">
-        <picture>
-          <img class="img_produtos" src="./assets/imgs/mobile/imagenscards/tenis.png" alt="banner tenis">
-          <figcaption class="descricao_produtos">Tênis Chunky</figcaption>
-        </picture>
-        <div class="descricaoprodutos">
-          <p class="bomb_text">Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.</p>
-          <h4 class="bomb_valor">R$ 250,00</h4>
+        <div class="banner_domingo">
+            <!-- <img class="banner_domingo" src="/assets/imgs/mobile/footer_banner.svg" alt="guitarra banner"/> -->
         </div>
-        <a href="#" class="vermais">Ver mais</a>
-      </div>
-      <div class="produtos_cards">
-        <picture>
-          <img class="img_produtos" src="./assets/imgs/mobile/imagenscards/jaqueta.png" alt="banner jaqueta">
-          <figcaption class="descricao_produtos">Jaqueta Jeans</figcaption>
-        </picture>
-        <div class="descricaoprodutos">
-          <p class="bomb_text">Modelo unissex oversized com gola de camurça. Atemporal e autêntica!</p>
-          <h4 class="bomb_valor">R$ 150,00</h4>
-        </div>
-        <a  class="vermais">Ver mais</a>
-      </div>
-      <div class="produtos_cards">
-        <picture>
-          <img class="img_produtos" src="./assets/imgs/mobile/imagenscards/oculos.png" alt="banner oculos">
-          <figcaption class="descricao_produtos">Óculos Redondo</figcaption>
-        </picture>
-        <div class="descricaoprodutos">
-          <p class="bomb_text">Armação metálica em grafite com lentes arredondadas. Sem erro!</p>
-          <h4 class="bomb_valor">R$ 120,00</h4>
-        </div>
-        <a href="#" class="vermais">Ver mais</a>
-      </div>
-      <div class="produtos_cards">
-        <picture>
-          <img class="img_produtos" src="./assets/imgs/mobile/imagenscards/bolsa.png" alt="banner bolsa">
-          <figcaption class="descricao_produtos">Bolsa coringa</figcaption>
-        </picture>
-        <div class="descricaoprodutos">
-          <p class="bomb_text">Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!</p>
-          <h4 class="bomb_valor">R$ 120,00</h4>
-        </div>
-        <a href="#" class="vermais">Ver mais</a>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Conheça todas as nossas facilidades -->
-  <section class="facilidades">
-    <div class="container_facilidades">
-      <h4>Conheça todas as nossas facilidades</h4>
-      <div class="container_card">
-        <div class="card_facilidades">
-          <img src="./assets/imgs/mobile/icones/x-diamond.png" alt="banner diamante">
-          <div class="card_text">
-            <h5>PAGUE PELO PIX</h5>
-            <p>Ganhe 5% OFF em pagamentos via PIX</p>
-          </div>
-        </div>
-        <div class="card_facilidades">
-          <img src="./assets/imgs/mobile/icones/arrow-repeat.png" alt="banner troca grátis">
-          <div>
-            <h5>TROCA GRÁTIS</h5>
-            <p>Fique livre para trocar em até 30 dias.</p>
-          </div>
-        </div>
-        <div class="card_facilidades">
-          <img src="./assets/imgs/mobile/icones/flower1.png" alt="banner sustentabilidade">
-          <div>
-            <h5>SUSTENTABILIDADE</h5>
-            <p>Moda responsável, que respeita o meio<br> ambiente.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="container_email">
-    <p class="input_text">Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? <b>Cadastre-se!</b></p>
-    <div class="container_enviar">
-      <input class="input_email" type="email" name="email" placeholder="Digite seu email"/>
-      <input class="enviar" type="submit" value="enviar" />
-    </div>
-  </section>
-  <!-- <a href="#" class="enviar">Enviar</a> -->
 </main>
+
 <footer>
-  <div class="footer">
-    <p class="footer_text">2023 © Desenvolvido por Alura | Projeto fictício sem fins comerciais.</p>
-  </div>
-</footer>
-
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div id="modal_responsive" class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div id="modal_header" class="modal-header">
-        <div class="modal_top">
-            <img src="/assets/imgs/modal/checkcircle.svg" alt="icon check">
-            <h5 class="modal-title" id="exampleModalLongTitle">Confira detalhes sobre o produto</h5>
+    <div class="foot">
+        <div class="logotipo">
+            <h1><img class="logotipo_img-1" src="assets/imgs/mobile/head_logo.png" alt="logo"/></h1>
+            <address>
+                <h3>Acesse nossas redes:</h3>
+                <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </address>
         </div>
-        <div>
-          <button type="button" id="close" data-dismiss="modal" aria-label="Close">
-            <span id="close_span" aria-hidden="true">&times;</span>
-            <!-- <img id="close_span" aria-hidden="true" src="/assets/imgs/modal/fechar.png" alt="fechar"> -->
-          </button>
+        <div class="footer_text">
+            <p>Desenvolvido por Alura.</p>
+            <p>Projeto fictício sem fins comerciais.</p>
         </div>
-      </div>
-      <div class="modal-body">
-        <div>
-          <img class="modal_img" id="imagem" src="./assets/imgs/mobile/imagenscards/jaqueta.png" alt="jaqueta">
-          <div class="modal_desktop">
-            <img class="modal_img_desktop" src="/assets/imgs/mobile/imagenscards/jaqueta.png" alt="bolsa">
-            <img class="modal_img_desktop" src="/assets/imgs/mobile/imagenscards/jaqueta.png" alt="bolsa">
-            <img class="modal_img_desktop" src="/assets/imgs/mobile/imagenscards/jaqueta.png" alt="bolsa">
-          </div>
-        </div>
-        <div>
-          <div class="modal_descricao">
-            <h3 class="modal_titulo">Jaqueta Jeans</h3>
-            <p class="model_text">Modelo unissex oversized com gola de camurça. Atemporal e autêntica!</p>
-          </div>
-
-          <div class="modal_valor">
-            <h3 class="modal_real" >R$ 150,00</h3>
-            <p class="modal_entregue">Vendido e entregue por Riachuelo</p>
-          </div>
-
-          <form class="modal_cores" id="formulario">
-            <h4 class="modal_cores_titulo">Cores</h4>
-            <div class="modal_radio">
-              <div class="modal_radio2">
-                <input type="radio" class="modal_input_radio mir_1" data-opcao-imagem="./assets/imgs/mobile/imagenscards/jaqueta.png" name="teste">
-                <label for="teste">Azul Claro</label>
-              </div>
-              <div class="modal_radio2">
-                <input type="radio" class="modal_input_radio mir_2" data-opcao-imagem="./assets/imgs/mobile/imagenscards/bolsa.png"  name="teste">
-                <label for="teste2">Offwhite</label>
-              </div>
-              <div class="modal_radio2">
-                <input type="radio" class="modal_input_radio mir_3" data-opcao-imagem="./assets/imgs/mobile/imagenscards/tenis.png" name="teste">
-                <label for="teste3">Preto</label>
-              </div>
-            </div>
-          </form>
-        
-          <div class="modal_cores">
-            <h4 class="modal_cores_titulo">Tamanho:</h4>
-            <div class="modal_radio modal_tamanho">
-              <div class="modal_radio2">
-                <input type="radio" class="modal_input_radio" id="html" name="fav_language" value="HTML">
-                <label for="html">P</label><br>
-              </div>
-              <div class="modal_radio2">
-                <input type="radio" class="modal_input_radio" id="css" name="fav_language" value="CSS">
-                <label for="css">PP</label><br>
-              </div>
-              <div class="modal_radio2">
-                <input type="radio" class="modal_input_radio" id="javascript" name="fav_language" value="JavaScript">
-                <label for="javascript">M</label>
-              </div>
-              <div class="modal_radio2">
-                <input type="radio" class="modal_input_radio" id="javascript" name="fav_language" value="JavaScript">
-                <label for="javascript">G</label>
-              </div>
-              <div class="modal_radio2">
-                <input type="radio" class="modal_input_radio" id="javascript" name="fav_language" value="JavaScript">
-                <label for="javascript">GG</label>
-              </div>
-            </div>
-          </div>
-          <div class="modal_comprar">
-            <button class="modal_btn_comprar">Adicionar à Sacola</button>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Voltar</button>
-            <button type="button" class="btn btn-primary">Finalizar Compra</button>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
-</div>
-
-
-
-
-</body>
-
-<!-- Bootstrap -->
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</footer>
 </body>
 </html>

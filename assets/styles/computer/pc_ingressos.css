@@ -1,0 +1,5 @@
+@media screen and (min-width: 1440px) {
+    main .informacoes_banner {
+        background-image: url(../../imgs/computer/main_ingresso_banner.png);
+    }
+}

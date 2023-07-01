@@ -1,0 +1,21 @@
+:root {
+    /* backgrounds */
+    --backgound_body: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
+    --background_azul: rgba(70, 80, 189, 1);
+
+
+    /* Textos */
+    --texto_branco: rgba(255, 255, 255, 1);
+    --texto_azul: rgba(70, 80, 189, 1);
+
+    /* Components */
+    --btn_comprar: rgba(70, 80, 189, 1);
+    --btn_comprar_hover: rgba(70, 80, 189, 0.658);
+    --bnt_comprar_hover_sombra: rgba(68, 68, 68, 1);
+
+    /* Animações */
+    --gradient-2: linear-gradient(160deg, #ffffff 20%, #4650BD, #36C1A0, #304968, #ffffff 80%);
+
+
+
+}

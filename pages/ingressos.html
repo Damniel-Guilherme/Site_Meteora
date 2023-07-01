@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeChella | Ingressos</title>
+
+    <!-- Fonts -->
+
+    <!-- Raleway -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700;800&display=swap" rel="stylesheet">
+
+    <!-- Calistoga -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../assets/styles/components/reset.css">
+    <link rel="stylesheet" href="../assets/styles/components/style.css">
+
+    <script src="/assets/javascript/js.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div class="logotipo">
+                <h1><img class="logotipo_img-1" src="../assets/imgs/mobile/head_logo.png" alt="logo tipo CodeChella"/></h1>
+            </div>
+    
+            <!-- MENU-HAMBURGUER -->
+            <nav id="nav">
+                <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false"><span id="hamburger"></span></button>
+                <ul id="menu" role="menu">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="experiencia.html">A experiência</a></li>
+                    <li><a href="setores.html">Mapa de Setores</a></li>
+                    <li><a href="informacoes.html">Informações</a></li>
+                    <li><a href="ingressos.html">ingressos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+    <!-- ingressos -->
+    <div class="banner_boasvindas informacoes_banner">
+        <h1>Garanta seu Ingresso</h1>
+    </div>
+
+    <section class="formulario">
+        <h2 class="form_title">Preencha o formulário a seguir:</h2>
+    
+        <form class="form">
+            <div class="form_nome">
+                <label for="nome"><h3>Nome Completo:</h3></label>
+                <input type="text" id="nomeid" placeholder="Nome Completo" required="required" name="nome"/>
+            </div>
+
+            <div class="form_email">
+                <label for="email"><h3>Email:</h3></label>
+                <input type="email" id="emailid" placeholder="seuemail@email.com" name="email"/>
+            </div>
+
+            <div class="form_ingresso">
+                <label><h3>Tipo de ingresso</h3></label>
+                <select class="options_ingressos">
+                    <option selected disabled value="">Tipo de ingresso</option>
+                    <option>Pista Comum</option>
+                    <option>Pista Premium</option>
+                    <option>Cadeiras Térreo</option>
+                    <option>Cadeiras Superiores</option>
+                </select>
+
+
+                <!-- <input type="email" id="emailid" placeholder="Tipo de ingresso" name="email" class="duo"/> -->
+            </div>
+
+            <div class="form_nascimento">
+                <label for="email"><h3>Data de nascimento:</h3></label>
+                <input type="date" id="emailid" placeholder="Data de Nascimento" name="email" class="duo"/>
+            </div>
+
+            <button type="submit" class="btn_avancar">Avançar!<img class="icon_avancar" src="../assets/imgs/components/btn_avancar_icon.png" alt="icone do botão avançar"/></button>
+        </form>
+
+    </section>
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="foot">
+            <div class="logotipo">
+                <h1><img class="logotipo_img-1" src="../assets/imgs/mobile/head_logo.png" alt="logo"/></h1>
+                <address>
+                    <h3>Acesse nossas redes:</h3>
+                    <ul>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </address>
+            </div>
+            <div class="footer_text">
+                <p>Desenvolvido por Alura.</p>
+                <p>Projeto fictício sem fins comerciais.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

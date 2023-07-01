@@ -1,0 +1,40 @@
+@media screen and (min-width: 768px) {
+    main .banner_boasvindas {
+        height: 384px;
+        background-position: center 100%;
+    
+        /* TEXTO */
+        font-size: 64px;
+        line-height: 83.2px;
+    }
+
+    main .artigo_text {
+        max-width: 800px;
+    }
+
+    main .artigo-1 .banner_img-1 {
+        height: auto;
+        width: 609px;
+    }
+
+    main .artigo-1 article > p {
+        margin: 24px 40px;
+    }
+
+    /* SABADO e DOMINGO */
+
+    .nomes_bandas {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+    .bandas_duo {
+        flex-direction: row;
+        margin-top: 0px;
+        gap: 32px;
+    }
+
+    main .banner_domingo {
+        background-image: url(../../imgs/tablet/main_domingo_banner.png);
+    }
+}

@@ -1,0 +1,5 @@
+@media screen and (min-width: 768px) {
+    main .seuingresso_banner {
+        background-image: url(../../imgs/tablet/main_seuingresso_banner.png);
+    }
+}
