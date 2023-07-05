@@ -100,47 +100,47 @@ main {
 
 .produtos_cards {
     margin: 0 auto;
-    width: 325px;
-    min-height: 607px;
+    width: 327px;
+    /* height: 630px; */
+    /* width: 325px; */
+    /* min-height: 607px; */
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     border: solid 2px var(--cinzaescuro);
 }
 
-.descricaoprodutos {
-    height: 117px;
-}
-
 .img_produtos {
-    width: 321px;
+    width: 323px;
     height: 402px;
 }
 
-.descricao_produtos {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
+.titulo_produtos {
+    color: #212529;
+    /* Basic Typography/Paragraph Bold */
     font-size: 16px;
+    font-family: Inter;
+    font-weight: 700;
     line-height: 23px;
-    padding: 13px 13px;
+
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.descricaoprodutos {
+    width: 100%;
+    padding-left: 10px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
 }
 
 .bomb_text{
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 20px;
-    padding: 0px 13px;
-}
-
-.bomb_valor {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 23px;
-    padding: 0px 16px 10px;
+    width: 100%;
+    height: 60px;
 }
 
 /* Conheça todas as nossas facilidades */
@@ -232,4 +232,36 @@ main {
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+}
+
+#modal_email_header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.modal_email_titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#close_email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+#close_span_email {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
 }

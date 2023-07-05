@@ -1,6 +1,7 @@
 /* BUTTON */
 
-.vermais {
+#vermais {
+    width: 100%;
     padding: 9px 16px;
     color: var(--branco);
     background-color: var(--roxo);
@@ -11,6 +12,7 @@
     line-height: 19px;
     text-align: center;
     cursor: pointer;
+    border-radius: 0px;
 }
 
 .enviar {
