@@ -36,20 +36,21 @@ meteora/
 ## Como Executar o Projeto
 
 1. Clone o repositório para a sua máquina local:
-   ```sh
-   git clone https://github.com/seu-usuario/meteora.git
-    ```
+```sh
+git clone https://github.com/seu-usuario/meteora.git
+```
 
 2.Navegue até a pasta do projeto:
 ```sh
 cd meteora
 ```
+
 Abra o arquivo index.html no seu navegador preferido.
 
-##Créditos
+## Créditos
 Este projeto foi desenvolvido como parte do curso da Alura, uma plataforma de ensino online que oferece cursos em diversas áreas de tecnologia.
 
-##Licença
+## Licença
 Este projeto é apenas para fins educacionais e não deve ser utilizado comercialmente.
 
 Sinta-se à vontade para contribuir com melhorias ou sugestões para o projeto. Boas práticas de desenvolvimento e feedbacks são sempre bem-vindos!
