@@ -40,7 +40,7 @@ meteora/
 git clone https://github.com/seu-usuario/meteora.git
 ```
 
-2.Navegue até a pasta do projeto:
+2. Navegue até a pasta do projeto:
 ```sh
 cd meteora
 ```
